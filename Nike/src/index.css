@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-grad{
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    background-color: #fff; /* Set your desired background color */
+  
+    /* Add the gradient shadow using box-shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.1), inset 0 0 50px rgba(255, 255, 255, 0.3);
+
+}
+/* styles.css or your.module.css */
+.gradient-shadow-div {
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    background-color: #fff; /* Set your desired background color */
+  
+    /* Add the gradient shadow using box-shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1), 0 16px 32px rgba(0, 0, 0, 0.1), inset 0 0 50px rgba(255, 255, 255, 0.3);
+  
+    /* You can customize the gradient and shadow values as needed */
+  }
+  
