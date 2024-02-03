@@ -1,12 +1,15 @@
+import React from "react";
 
-
-const Card = ({imageURL, title}) => {
+const Card = ({imageURL}) => {
   return (
-<div className=" max-h-[400px] rounded-xl m-4 w-full">
-    <h1 className="text-4xl font-bold m-6">{title}</h1>
-    <img src={imageURL} alt={title} className="w-full h-auto max-h-[400px] object-cover rounded-xl"/>
-</div>
-  )
-}
+    <div className="max-w-[45%] bg-gray-400 sm:m-4 mt-5 h-[500px] rounded-3xl shadow-2xl">
+      <img
+        src={imageURL}
+        alt="nike-air-max-plus"
+        className="object-cover h-full w-full rounded-3xl"
+      />
+    </div>
+  );
+};
 
-export default Card
+export default Card;
