@@ -1,4 +1,5 @@
 import React from "react";
+import { links } from "../constants";
 
 const Navbar = ({ menu }) => {
   return (
@@ -12,10 +13,9 @@ const Navbar = ({ menu }) => {
       </div>
 
       <div className="flex-grow m-auto flex md:gap-20 gap-6 text-gray-400 justify-center items-center">
-        <a href="https://www.nike.com/in/men">Men</a>
-        <a href="">Women</a>
-        <a href="">Kids</a>
-        <a href="">Sale</a>
+        {links.map((link, index)=>(
+          <p className=" hover:cursor-pointer hover:underline underline-offset-3" key={index}>{link}</p>
+        ))}
       </div>
 
       <div className="justify-end ml-auto mr-4 p-2">
