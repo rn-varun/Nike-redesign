@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({imageURL, name, price}) => {
   return (
-    <div className="md:max-w-[45%] max-w-full bg-gray-400 sm:m-4 m-1 mt-10 h-[500px]  rounded-3xl shadow-2xl">
+    <div className="md:max-w-[45%] max-w-full bg-gray-400 sm:m-4 m-1 mt-10 h-[500px] rounded-3xl shadow-lg">
       <img
         src={imageURL}
         alt="nike-air-max-plus"

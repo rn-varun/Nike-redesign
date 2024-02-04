@@ -10,7 +10,7 @@ const Bra = () => {
         rest day or simply chill in the softest flexibiity imaginable.
       </p>
       <button className=" bg-gray-700 text-white rounded-3xl p-4 my-8">
-        SHOP NOW
+        COMING SOON!
       </button>
     </div>
   );
