@@ -9,7 +9,7 @@ const Bra = () => {
         HIT the gym with locked-in support and next-level confidence. Enjoy your
         rest day or simply chill in the softest flexibiity imaginable.
       </p>
-      <button className=" bg-gray-700 text-white rounded-3xl p-4 my-8">
+      <button className="bg-white shadow-md shadow-blue-300 rounded-3xl p-4 my-8">
         COMING SOON!
       </button>
     </div>

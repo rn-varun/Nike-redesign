@@ -10,7 +10,7 @@ const Airmax = () => (
       <p className="font-mono sm:p-0 p-3 text-center">
         Welcome to the next generation of Air Technology
       </p>
-      <button className=" rounded-3xl bg-black text-white p-4 mt-7 shadow-md shadow-blue-300">
+      <button className=" rounded-3xl bg-white font-semibold p-4 my-7 shadow-md shadow-blue-300">
         Get Notified
       </button>
     </div>

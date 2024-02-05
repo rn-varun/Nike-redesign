@@ -3,7 +3,7 @@ import { links } from "../constants";
 
 const Navbar = ({ menu }) => {
   return (
-    <nav className="w-full flex items-center justify-center relative">
+    <nav className="w-full flex items-center justify-center sticky">
       <div className="ml-4 p-2">
         <img
           src="https://pngfre.com/wp-content/uploads/nike-logo-7-1024x1024.png"

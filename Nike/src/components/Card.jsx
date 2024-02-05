@@ -10,7 +10,7 @@ const Card = ({imageURL, name, price}) => {
       />
       <p className="font-bold mt-2 flex justify-start items-center">{name}</p>
       <p className="font-bold">{price}</p>
-      <p className=" text-gray-400">Men's Shoe</p>
+      <p className="text-gray-400">Men's Shoe</p>
     </div>
   );
 };
