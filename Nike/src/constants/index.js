@@ -37,4 +37,29 @@ export const images = [
   },
 ];
 
+export const shoe_list = [
+  {
+    name: 'LifeStyle'
+  },
+  {
+    name: 'Jordan'
+  },
+  {
+    name: 'Running'
+  },
+  {
+    name: 'Basketball'
+  },
+  {
+    name: 'Football'
+  },
+  {
+    name: 'Training & Gym'
+  },
+  {
+    name: 'Skateboarding'
+  },
+
+]
+
 export const links = ["Women", "Kids", "Sale", "Nike Max DN"];
