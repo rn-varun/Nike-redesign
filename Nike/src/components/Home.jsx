@@ -24,7 +24,7 @@ const Home = () => {
             for you sporty life.
           </p>
           <div className="flex lg:justify-start justify-center">
-            <Link to={'/buy'}>
+            <Link to={'/buy/football'}>
             <button className="flex pl-4 justify-center items-center sm:mt-12 mt-10 bg-blue-400 rounded-3xl p-4">
               Shop Now
               <img
