@@ -1,4 +1,10 @@
-import { categories, info, shoes } from "./shoe_list.js";
+import {
+  categories,
+  info,
+  footballShoes,
+  LifeStyle,
+  basketball,
+} from "./shoe_list.js";
 
 import express from "express";
 import cors from "cors";
@@ -22,16 +28,19 @@ app.get("/", (req, res) => {
   console.log(`${(method, time, url)}`);
 });
 
-app.get("/api/shoes", (req, res) => {
-  res.json(shoes);
+app.get("/api/football", (req, res) => {
+  res.json(footballShoes);
+});
+
+app.get("/api/basketball", (req, res) => {
+  res.json(basketball);
 });
 
 app.get("/api/categories", (req, res) => {
   res.json(categories);
 });
-
-app.get("/test", (req, res) => {
-  res.send("Test at url: /test");
+app.get("/api/LifeStyle", (req, res) => {
+  res.json(LifeStyle);
 });
 
 app.get("/api/info", (req, res) => {

@@ -14,6 +14,7 @@ const Cards = ({ data }) => {
             />
             <p className="mt-2 font-bold">{shoe.name}</p>
             <p className="font-bold">MRP: ₹{shoe.price}</p>
+            <p className="font-medium text-gray-400">{shoe.category.toUpperCase()} SHOES</p>
           </div>
         ))}
       </div>
