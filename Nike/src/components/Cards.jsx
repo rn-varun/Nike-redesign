@@ -5,10 +5,10 @@ const Cards = ({ data }) => {
     <div className="">
       <div className="flex lg:flex-row flex-col gap-x-10 flex-wrap gap-y-5 mt-5">
         {data.map((shoe, index) => (
-          <div className="flex flex-col hover:cursor-pointer">
+          <div className="flex flex-col hover:cursor-pointer gap-y-[0.15rem]">
             <img
               key={index}
-              className="object-cover w-[25rem] h-[25rem]"
+              className="object-cover w-[25rem] h-[25rem] rounded-2xl"
               src={shoe.url}
               alt="shoe_img"
             />

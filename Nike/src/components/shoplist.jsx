@@ -36,7 +36,7 @@ const shoplist = () => {
   return (
     <div>
       <div className="flex md:flex-row flex-col">
-        <div className="lg:flex hidden flex-col rounded-sm mx-10 w-[20%] mt-16 h-[100%] p-5 shadow-sm shadow-gray-400">
+        <div className="lg:flex hidden flex-col rounded-sm mx-10 w-[20%] mt-16 h-[100%] p-5 sticky top-10">
           <div className="flex flex-col">
             <h1 className="text-2xl font-semibold mb-2">Categories</h1>
             <ul>
